@@ -1,0 +1,15 @@
+
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Echo  " Constante Declarada <br> " ;
+Define ( " CONSTANTE_ALO " , " Olá Turma! Assim Declara uma Constante " );
+Echo  CONSTANTE_ALO ;
+Echo " <br> <br> <br> Constante declarada <br> " ;
+Echo  phpinfo ();
+? >
+</ Body >
+</ Html >
