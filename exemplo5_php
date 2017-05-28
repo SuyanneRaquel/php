@@ -1,0 +1,28 @@
+< Html >
+< Head >
+</ Head >
+< Body >
+<? PHP
+Echo  " <h1> Operadores de Comparação <br> </ h1> " ;
+$ A = 15 ;
+$ B = 42 ;
+$ C = 42,0 ;
+Echo  " $ b == $ c " , $ b == $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ b === $ c " , $ b === $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ b ! = $ C " , $ b ! = $ C ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ a <> $ c " , $ a <> $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ a < $ c " , $ a > $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ a > $ c " , $ a > $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ a <= $ c " , $ a <= $ c ? " Verdadeiro " : " Falso " ;
+Echo  " <br> " ;
+Echo  " $ a > = $ c " , $ a > = $ c ? " Verdadeiro " : " Falso " ;
+? >
+</ PHP >
+</ Body >
+</ Html >
