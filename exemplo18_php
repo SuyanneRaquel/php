@@ -1,0 +1,27 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? PHP
+$ Carros [ " Palio " ] [ " cor " ] = " Azul " ;
+$ Carros [ " Palio " ] [ " potência " ] = " 1.0 " ;
+$ Carros [ " Palio " ] [ " opcionais " ] = " Ar Condicionado " ;
+$ Carros [ " corsa " ] [ " cor " ] = " Cinza " ;
+$ Carros [ " corsa " ] [ " potência " ] = " 1.3 " ;
+$ Carrod [ " corsa " ] [ " opcionais " ] = " MP3 " ;
+$ Carros [ " Gol " ] [ " cor " ] = " Branco " ;
+$ Carros [ " Gol " ] [ " potência " ] = " 1.0 " ;
+$ Carros [ " Gol " ] [ " opcionais " ] = " Metálica " ;
+Foreach ( $ carros  como  $ modelos  =>  $ caracteristicas ) {
+ Eco " <b> Modelo " .  $ Modelos . " </ B> " ;
+ Eco " </ br> " ;
+ foreach ( $ caracteristicas  como  $ caracteristicas  =>  $ valor ) {
+  Echo " $ caracteristicas : $ valor " ;
+  Eco " </ br> </ br> " ;
+  }
+  }
+  ? >
+</ Body >
+</ Html >
+
