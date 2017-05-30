@@ -1,0 +1,28 @@
+< Html >
+< Head >
+	< Título > Exemplo 08 </ title >
+</ Head >
+< Body  bgcolor = # 548298 >
+< Center >
+<? Php
+Eco  " <h1> Estrutura condicional SWITCH </ h1> " ;
+$ Dia = getdate ();
+Switch ( $ dia [ ' wday ' ]) {
+	Caso  5 :
+	Echo  " Finalmente Sexta !!! " ;
+		Quebrar ;
+		Caso  6 :
+		Eco  " Super Sabado! =) " ;
+		Quebrar ;
+		Caso  0 :
+		echo  " Domingo Sonolento! " ;
+	Breaak ;
+	Padrão :
+		Echo  " Estou esperando pelo fim de semana! " ;
+		Quebrar ;
+}
+? >
+</ Center >
+</ Body >
+</ Html >
+
