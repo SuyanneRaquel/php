@@ -1,0 +1,19 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  testeStatic () {
+Estático  $ a = 0 ;
+$ A  + =  25 ;
+Echo  " Valor da Variável a = $ a <br> " ;
+}
+Echo " <h1> Variável Estática </ h1> " ;
+TesteStatic ();
+TesteStatic ();
+TesteStatic ();
+? >
+</ Body >
+</ Html >
+
