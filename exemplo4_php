@@ -1,0 +1,17 @@
+< Html >
+< Head >
+     < Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? PHP
+Echo " <h1> ******** Operadoras de Strings ******** </ h1> <br> " ;
+$ A = " bem vindo; " ;
+$ B = " ao curso " ;
+$ C = " de informática " ;
+$ D = $ a . $ b . $ C. = " Dá disciplina de php <br> " ;
+Echo  $ d ;
+$ A. = " Aluno " ;
+Echo  $ a ;
+? >
+</ Body >
+</ Html >
