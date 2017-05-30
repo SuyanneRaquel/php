@@ -1,0 +1,17 @@
+< Html >
+< Head >
+   < Meta  charset = ' utf-8 ' />
+</ Head >
+< Body >
+  < H1 > ESTRUTURA DE REPETIÇÃO (DO WHILE) </ h1 >
+    <? Php
+      $ Num = 10 ;
+      Faça {
+         Echo " numero: $ num <br> " ;
+         $ Num - ;
+        }
+        Enquanto ( $ num > = 1 )
+      ? >
+     </ Body >
+  </ Html >  
+   
