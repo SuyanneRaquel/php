@@ -1,0 +1,19 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  msn () {
+$ Msn = " Olá Bem Vindo como Funções de PHP " ;
+ Echo " <h2> $ msn </ h2> " ;
+ }
+ Função  imprimir ( $ texto ) {
+ Echo " <h3> $ texto </ h3> " ;
+ }
+ Msn ();
+Imprimir ( " Testando Função " );
+? >
+</ Body >
+</ Html >
+
