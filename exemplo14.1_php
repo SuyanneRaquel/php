@@ -1,0 +1,16 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  testeLocal () {
+$ A = 25 ;
+}
+Echo " <h1> Variável Local </ h1> " ;
+TesteLocal ();
+Eco  $ a = 25 ;
+? >
+</ Body >
+</ Html >
+
