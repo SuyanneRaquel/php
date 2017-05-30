@@ -1,0 +1,29 @@
+<! DOCTYPE html>
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Echo  " <h1> Estrutura Condicional - Chave </ h1> " ;
+$ Dia =  getdate ();
+Switch ( $ dia [ " wday " ]) {
+Caso  5 :
+Echo  " Finalmente Sexta " ;
+Quebrar ;
+Caso  6 :
+Echo " Super Sábado " ;
+Quebrar ;
+Caso  0 ;
+Echo " Domingo Sonolento " ;
+Quebrar ;
+Caso  2 ;
+Echo " Aula de Programação " ;
+Quebrar ;
+Padrão ;
+Echo " Estou Esperando a Final da Semana " ;
+}
+? >
+</ Body >
+</ Html >
+
