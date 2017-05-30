@@ -1,0 +1,7 @@
+// Suyanne
+<? Php
+Session_start ();
+$ Var = ' aluno ' ;
+$ _SESSION [ ' login ' ] = $ var ;
+Eco  " <a href='exemplo21_Testar.php'> Testa sessão " ;
+? >
