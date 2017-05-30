@@ -1,0 +1,13 @@
+< Html >
+< Head >
+   < Meta  charset = " utf-8 " >
+</ Head >
+< Body >
+   < H1 > ESTRUTURA DE REPETIÇÃO (FOR) </ h1 >
+       <? Php
+          Para ( $ i = 1 ; $ i <= 10 ; $ i ++ ) {
+          Echo " <b> numero: $ i <br> " ;
+          }
+       ? >
+</ Body >
+</ Html >
