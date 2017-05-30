@@ -1,0 +1,6 @@
+// Suyanne
+<? Php
+Session_start ();
+Session_destroy ();
+Eco  " <a href='exemplo21_Testar.php'> Testa sessão " ;
+? >
