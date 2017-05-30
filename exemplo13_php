@@ -1,0 +1,16 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  soma ( $ n1 , $ n2 ) {
+Return  $ n1 + $ n2 ;
+} Função  imprimir () {
+Return " O Resultado da Soma é: " ;
+}
+Echo imprimir () . Soma ( 115 , 30 );
+? >
+</ Body >
+</ Html >
+
