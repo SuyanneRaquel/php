@@ -1,0 +1,17 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  mais5 ( $ numero ) {
+$ Numero  + =  5 ;
+}
+Eco " <h1> Passagem de Parâmetro </ h1> " ;
+R $ a = 3 ;
+Mais5 ( $ a );
+Echo " Valor da Variável a = $ a <br> " ;
+? >
+</ Body >
+</ Html >
+
