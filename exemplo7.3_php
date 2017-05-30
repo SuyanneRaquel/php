@@ -1,0 +1,28 @@
+< HTML >
+< HEAD >
+< TITLE > Exemplo 7.3 </ TITLE >
+</ HEAD >
+< BODY  bgcolor = # 987654 >
+< Center >
+<? Php
+$ Altura = 1.58 ;
+$ Peso = 62 ;
+$ Imc = $ peso / ( $ altura * $ altura );
+Se ( $ imc < 18.5 ) {
+Echo ( $ imc + " classificação magreza " );
+} Else  if (( $ imc > 18.5 ) && ( $ imc < 24.9 )) {
+Eco ( $ imc + " classificação saudável " );
+} Else  if (( $ imc > 25.0 ) && ( $ imc < 29.9 )) {
+Echo ( $ imc + " classificação sobrepeso " );
+} Else  if (( $ imc > 30.0 ) && ( $ imc < 39.9 )) {
+Echo ( $ imc + " classificação obesidade grau 1 " );
+} Else  if (( $ imc > 35.0 ) && ( $ imc < 39.9 )) {
+Echo ( $ imc + " classificação obesidade grau 2 " );
+} Else  if ( $ imc > = 40 ) {
+Echo ( $ imc + " classificação obesidade grau 3 (mórbida) " );
+}
+? >
+</ Center >
+</ BODY >
+</ HTML >
+
