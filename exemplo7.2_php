@@ -1,0 +1,20 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+< Título > Exemplo 7_2 </ title >
+</ Head >
+< Body  bgcolor = # 837519 >
+< Center >
+< H1 > Estrutura Condicional (Se / Else) </ h1 >
+<? Php
+$ Idade = 17 ;
+$ Maioridade = 18 ;
+Se ( $ idade > = $ maioridade ) {
+Echo ( " <br> <b> $ idade Anos, Você já é Maior de Idade! </ B> " );}
+Else {
+Echo ( " <br> <b> $ idade Anos, Você Ainda não é maior da idade! </ B> " );}
+? >
+</ Center >
+</ Body >
+</ Html >
+
