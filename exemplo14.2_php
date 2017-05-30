@@ -1,0 +1,18 @@
+< Html >
+< Head >
+< Meta  charset = " utf-8 " />
+</ Head >
+< Body >
+<? Php
+Função  testeGlobal () {
+Global  $ a ;
+$ A = 25 ;
+}
+Echo " <h1> Variável Global </ h1> " ;
+$ A = 0 ;
+TesteGlobal ();
+Echo " Valor da Variável a = $ a " ;
+? >
+</ Body >
+</ Html >
+
