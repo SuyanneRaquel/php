@@ -1,0 +1,27 @@
+// Suyanne
+<? Php
+ Se ( isset ( $ _COOKIE [ ' contador ' ])) {
+ 	$ Tempo = time () + ( 3600 * 24 * 7 );
+ 	$ Valor = $ _COOKIE [ ' contador ' ] + 1 ;
+ 	Setcookie ( ' contador ' , $ valor , $ tempo );
+} Else {
+ 	$ Valor = 1 ;
+ 	$ Tempo = time () + ( 3600 * 24 * 7 );
+ 	Setcookie ( ' contador ' , $ valor , $ tempo );
+ }
+? >
+< Html >
+< Head >
+	< Meta  charset = ' utf-8 ' />
+	< Script >
+	 Função  visita ( valor ) {
+	 	Alerta (valor + ' visitas no site ' );
+	 }
+	< / Script >
+</ Head >
+	<? Php
+	 	Echo  " <body onload = 'visita ( $ valor )'> " ;	 
+	? >
+</ Body >
+</ Html >
+
