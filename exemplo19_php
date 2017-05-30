@@ -1,0 +1,18 @@
+< Html >
+< Head >
+	< Meta  charset = ' utf-8 ' >
+</ Head >
+< Body >
+	< Form  method = ' get '  action = '  ' >
+	Login: < entrada  tipo = ' texto '  size = ' 20 '  name = ' logon ' > < br >
+	Senha: < tipo de entrada  = ' senha ' tamanho = ' 20 ' nome = ' senha ' >  
+	< Entrada  tipo = ' enviar '  valor = ' Enviar ' > < br >
+	<? Php
+	 Se ( isset ( $ _GET [ ' login ' ])) {
+	 	Echo  $ _GET [ ' login ' ] . ' <br> ' ;
+	 	echo  $ _GET [ ' Senha ' ] . ' <br> ' ;
+	 }
+	? >
+</ Body >
+</ Html >
+
