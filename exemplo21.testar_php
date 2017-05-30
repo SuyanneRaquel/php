@@ -1,0 +1,9 @@
+// Suyanne
+<? Php
+Session_start ();
+Se ( isset ( $ _SESSION [ ' login ' ]))
+	Echo  ' Sessão ativa <br> ' ;
+outro
+	Echo  ' Sessão não existe sobre ' ;
+Eco  " <a href='exemplo21_Destruir.php'> Destruir Sessão " ;
+? >
