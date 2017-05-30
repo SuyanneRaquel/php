@@ -1,0 +1,16 @@
+< Html >
+< Head >
+  < Meta  charset = ' utf-8 ' >
+</ Head >
+< Body >
+   < H1 > ESTRUTURA DE REPETIÇÃO (QUALQUER) </ h1 >
+   <? Php
+      $ Num = 1 ;
+      Enquanto ( $ num <= 10 ) {
+      Echo " numero: $ num <br> " ;
+      $ Num ++ ;
+      }
+     ? >
+</ Body >
+</ Html >
+
